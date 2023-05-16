@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bloc_flutter">
    <application
-        android:label="bloc_flutter"
+        android:label="Toggle Button"
         android:name="${applicationName}"
         android:icon="@mipmap/logo">
         <activity
