@@ -3,7 +3,7 @@
    <application
         android:label="bloc_flutter"
         android:name="${applicationName}"
-        android:icon="@mipmap/bloc_icon">
+        android:icon="@mipmap/logo">
         <activity
             android:name=".MainActivity"
             android:exported="true"
