@@ -1,16 +1,14 @@
 # bloc_flutter
 
-A new Flutter project.
+Implementation of the toggle button using the BLoC pattern.
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+Below is an example of implementation on the dart program language of toggle button using the BLoC pattern.  The class ButtonPattern encapsulates the state machine shown below.
 
-A few resources to get you started if this is your first Flutter project:
+## State machine
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![button_state_machine.svg](..%2F..%2FArchive%2FNUC%2FIdeaProjects%2Fbutton_state_machine.svg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It has two states: play and stop (on and off) and is controlled by two events: click and reset.  The first event is used to switch the button from the stop state to play and vice versa, the second event is used to reset the button to the initial stop state using some external influence.
+To illustrate, the application uses two flat buttons: stop/play button as a toggle button and refresh button - for simulate external influence.  Naturally, the proposed implementation method can be extended to any other types of buttons of flutter or widgets.
